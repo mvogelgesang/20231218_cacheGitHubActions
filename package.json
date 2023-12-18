@@ -13,12 +13,12 @@
     "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
     "prettier:verify": "prettier --check \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
     "postinstall": "husky install",
-    "precommit": "lint-staged",
-    "preinstall": "npm install @salesforce/cli --global"
+    "precommit": "lint-staged"
   },
   "devDependencies": {
     "@lwc/eslint-plugin-lwc": "^1.6.3",
     "@prettier/plugin-xml": "^3.2.1",
+    "@salesforce/cli": "^2.21.8",
     "@salesforce/eslint-config-lwc": "^3.5.2",
     "@salesforce/eslint-plugin-aura": "^2.1.0",
     "@salesforce/eslint-plugin-lightning": "^1.0.0",
